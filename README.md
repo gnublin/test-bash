@@ -17,7 +17,7 @@ Le script doit retourner :
  * Une erreur "group toto not found" si le group toto n'éxiste pas
 
 
-# Sortie attendu
+# Sortie attendue
 
 ```
   user@machine~:~/bas$ ./script.sh doctolib1
