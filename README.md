@@ -20,24 +20,40 @@ Le script doit retourner :
 # Sortie attendue
 
 ```
-  user@machine~:~/bas$ ./script.sh doctolib1
+user@machine~:~/test-bash$ ./script.sh doctolib1
+  user informations for doctolib1 user:
+  == doctolib3 ==
+  username = docto-user3
+  login = doctolib3
+  ==
+  == doctolib1 ==
+  username = docto-user1
+  login = doctolib1
+  ==
 
-    user informations for doctolib1 user:
-    == doctolib3 ==
-    username = docto-user3
-    login = doctolib3
-    ==
+user@machine~:~/test-bash$ ./script.sh doctolib2
+  user informations for doctolib2 user:
+  == doctolib1 ==
+  username = docto-user1
+  login = doctolib1
+  ==
+  == doctolib14 ==
+  username = docto-user14
+  login = doctolib14
+  ==
+  == doctolib2 ==
+  username = docto-user2
+  login = doctolib2
+  ==
 
-  user@machine~:~/bas$ ./script.sh doctolib2
+user@machine~:~/test-bash$ ./script.sh doctolib1 uid
+  user informations for doctolib1 user:
+  == doctolib3 ==
+  username = docto-user3
+  uid = 1044
+  ==
+  == doctolib1 ==
+  username = docto-user1
+  uid = 1041
+  ==
 
-    user informations for doctolib2 user:
-    == doctolib1 ==
-    username = docto-user1
-    login = doctolib1
-    ==
-    == doctolib14 ==
-    username = docto-user14
-    login = doctolib14
-    ==
-
-```
