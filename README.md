@@ -21,7 +21,7 @@ Le script doit retourner :
 
 ```
 user@machine~:~/test-bash$ ./script.sh doctolib1
-  user informations for doctolib1 user:
+  user informations for doctolib1 group:
   == doctolib3 ==
   username = docto-user3
   login = doctolib3
@@ -32,7 +32,7 @@ user@machine~:~/test-bash$ ./script.sh doctolib1
   ==
 
 user@machine~:~/test-bash$ ./script.sh doctolib2
-  user informations for doctolib2 user:
+  user informations for doctolib2 group:
   == doctolib1 ==
   username = docto-user1
   login = doctolib1
@@ -47,7 +47,7 @@ user@machine~:~/test-bash$ ./script.sh doctolib2
   ==
 
 user@machine~:~/test-bash$ ./script.sh doctolib1 uid
-  user informations for doctolib1 user:
+  user informations for doctolib1 group:
   == doctolib3 ==
   username = docto-user3
   uid = 1044
