@@ -11,7 +11,7 @@
 Vous devez compléter le fichier script.sh afin qu'il retourne les informations demandées.
 
 Le script doit retourner :
- * Une erreur "not argument found" s'il n'y a pas d'argument
+ * Une erreur "no argument found" s'il n'y a pas d'argument
  * La liste des utilisateurs (identifiant + nom d'utilisateur) en fonction du premier argument qui est le nom du groupe
  * La liste des utilisateurs (identifiant + uid) en fonction du premier argument qui est le nom du groupe et le deuxième argument est "uid" uniquement. Si le deuxième argument n'est pas "uid', l'argument n'est pas pris en compte"
  * Une erreur "group toto not found" si le group toto n'éxiste pas
