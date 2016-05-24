@@ -1,4 +1,4 @@
-== Ce que vous avez ==
+# Ce que vous avez
 
 3 fichiers :
  * etc_passwd (informations utilisateurs)
@@ -6,7 +6,7 @@
  * script.sh (début de script)
 
 
-== Ce que qui est attendu ==
+# Ce que qui est attendu
 
 Vous devez compléter le fichier script.sh afin qu'il retourne les informations demandées.
 
@@ -17,8 +17,9 @@ Le script doit retourner :
  * Une erreur "group toto not found" si le group toto n'éxiste pas
 
 
-== Sortie attendu ==
+# Sortie attendu
 
+```
   user@machine~:~/bas$ ./script.sh doctolib1
 
     user informations for doctolib1 user:
@@ -38,3 +39,5 @@ Le script doit retourner :
     username = docto-user14
     login = doctolib14
     ==
+
+```
