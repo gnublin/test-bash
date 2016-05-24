@@ -56,4 +56,4 @@ user@machine~:~/test-bash$ ./script.sh doctolib1 uid
   username = docto-user1
   uid = 1041
   ==
-
+```
